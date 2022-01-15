@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 html{
     font-size: 10px;
     overflow-x: hidden;
@@ -20,14 +20,14 @@ html{
  body{
     /* background-color:var(--lightGreen-2); */
     /* background: url('wallpapersden.com_purple-abstract-art_1080x2280') ; */
-    /* background: url("./meta gaming images/—Pngtree—purple colorful technology times blockchain_1014404.jpg") no-repeat  ; */
+    background: url("./meta gaming images/—Pngtree—purple colorful technology times blockchain_1014404.jpg") repeat  ;
     
     /* background: url("./meta gaming images/wallpapersden.com_purple-abstract-art_wxl.jpg") repeat  ; */
     
    
    
 }
-.nav::before,.container::before,.about::before{
+/* .nav::before,.container::before,.about::before{
     content:"" ;
     background: url("./meta gaming images/—Pngtree—purple colorful technology times blockchain_1014404.jpg") no-repeat  ;background-size: cover;
 opacity: 0.8;
@@ -37,8 +37,8 @@ bottom: 0;
 right: 0;
 position: absolute;
 z-index: -1;
-height: 4000px;
-}
+height: 4500px;
+} */
 
 section{
   padding: 80px 0px;
