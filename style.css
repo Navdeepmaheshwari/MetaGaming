@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
+
+html{
+    font-size: 10px;
+    overflow-x: hidden;
+}
+
+:root {
+	--green-1: #26643b;
+	--green-2: #a2de96;
+	--lightGreen-1: #d6e5d8;
+	--lightGreen-2: #f5fcf4;
+	--black-1: #3b413a;
+	--black-2: #3f3c3c;
+	--black-3: #5b6359;
+	--white-1: #e8e8e8;
+    --gradient: linear-gradient(90deg, #4b84ef, #fa11ac);
+}
+
+ body{
+    /* background-color:var(--lightGreen-2); */
+    /* background: url('wallpapersden.com_purple-abstract-art_1080x2280') ; */
+    /* background: url("./meta gaming images/—Pngtree—purple colorful technology times blockchain_1014404.jpg") no-repeat  ; */
+    
+    /* background: url("./meta gaming images/wallpapersden.com_purple-abstract-art_wxl.jpg") repeat  ; */
+    
+   
+   
+}
+.nav::before,.container::before,.about::before{
+    content:"" ;
+    background: url("./meta gaming images/—Pngtree—purple colorful technology times blockchain_1014404.jpg") no-repeat  ;background-size: cover;
+opacity: 0.8;
+top:0;
+left: 0;
+bottom: 0;
+right: 0;
+position: absolute;
+z-index: -1;
+height: 4000px;
+}
+
+section{
+  padding: 80px 0px;
+}
+
+@media  only screen and (max-width:768px) {
+    section{
+        padding: 40px 0px;
+    }
+}
+.container{
+    max-width: 1200px;
+    width :80%;
+    margin: 0 auto;
+}
+
+img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+h1,h2,h3,h4{
+    font-family: ' Poppins',  sans-serif;
+    /* color: black; */
+}
+p{
+    font-family: ' Raleway',  sans-serif;
+    font-weight: 400;
+    line-height: 1.4rem;
+    font-size: 1.8rem;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.card_body{
+
+}
