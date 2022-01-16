@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap');
 html{
     font-size: 10px;
     overflow-x: hidden;
@@ -18,6 +20,8 @@ html{
 }
 
  body{
+     scroll-behavior: smooth;
+     /* background: linear-gradient(90deg, #242629, #2b3183);; */
     /* background-color:var(--lightGreen-2); */
     /* background: url('wallpapersden.com_purple-abstract-art_1080x2280') ; */
     background: url("./meta gaming images/—Pngtree—purple colorful technology times blockchain_1014404.jpg") repeat  ;
@@ -27,17 +31,19 @@ html{
    
    
 }
-/* .nav::before,.container::before,.about::before{
+/* .footer::before{
     content:"" ;
+     background: url("./meta gaming images/wallpapersden.com_purple-abstract-art_wxl.jpg") repeat  ;
+    background: linear-gradient(90deg, #242629, #2b3183);
     background: url("./meta gaming images/—Pngtree—purple colorful technology times blockchain_1014404.jpg") no-repeat  ;background-size: cover;
-opacity: 0.8;
+opacity:;
 top:0;
 left: 0;
 bottom: 0;
 right: 0;
 position: absolute;
 z-index: -1;
-height: 4500px;
+height: auto;
 } */
 
 section{
