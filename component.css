@@ -363,6 +363,14 @@ li {
 }
 
 @media only screen and (max-width: 768px) {
+     body{
+    scroll-behavior: smooth;
+    /* background: linear-gradient(90deg, #242629, #2b3183);; */
+    background: url("./meta gaming images/—Pngtree—purple colorful technology times blockchain_1014404.jpg") repeat  ;
+   
+  
+  
+}
   .extralarge {
     /* font-family: Poppins; */
     font-family: "Bree Serif", serif;
