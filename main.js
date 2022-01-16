@@ -37,7 +37,7 @@ const navClose = () => {
 //   answer3.style= "display:block;";
 //   arrow3.style="transform:rotate(90deg);"
 // }
-navIconEl.addEventListener("click",navOpen);
+//navIconEl.addEventListener("click",navOpen);
 navCloseEl.addEventListener("click", navClose);
 navbgOverlay.addEventListener("click", navClose)
 // arrow1.addEventListener("click", showAnswer1)
